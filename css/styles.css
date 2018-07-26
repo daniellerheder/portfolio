@@ -1,0 +1,97 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
+	background: radial-gradient(#333, #222);
+	text-align: center;
+	color:white;
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+}
+h1, h2, h3, h4 {
+	 font-family: 'Lilita One';
+	color: #cedff8;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	margin-top: 1em;
+	margin-bottom: 1.8em;
+}
+
+.thumb {
+	height: 30vh;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-size: cover;
+	background-position: center center;
+	transition: all 2s;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+a:visited,
+a:link,
+a:hover,
+a:active,
+a {
+	 font-family: 'Lilita One';
+	text-decoration: none;
+}
+.thumb .titulo {
+	opacity: 0;
+	transition: all 1s;
+	width:100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.8);
+}
+.thumb .titulo span {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
+.thumb:hover .titulo {
+	opacity: 1;
+}
+.thumb:hover {
+	background-position: bottom right;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 36.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#after .video-container {
+	position: relative;
+	padding-bottom: 29%;
+}
+
+.top-2 {
+	margin-top: 2em;
+}
+
+img.contain {
+	max-width:100%;
+}
