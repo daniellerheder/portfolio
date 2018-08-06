@@ -1,0 +1,3 @@
+[submodule "curriculo"]
+	path = curriculo
+	url = https://github.com/daniellerheder/curriculo.git
