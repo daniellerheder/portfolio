@@ -1,0 +1,115 @@
+body {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: black;
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+ul.lista-portfolio {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.lista-portfolio li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid red;
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+}
+
+.item-portfolio {
+    border: 0px solid black;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+}
+
+#fotografia div {   
+    background-image: url(./img/cabaret02.jpg);
+}
+
+#programasdetv div {
+    background-image: url(./img/Asteraldo.jpg);
+}
+
+#asteraldo div {
+    background-image: url(./img/Asteraldo.jpg);
+}
+
+#artefato div {
+    background-image: url(./img/artefato.jpg);
+}
+
+#retrate div {
+    background-image: url(./img/retrate.png);
+}
+
+#artetecnologia div {
+    background-image: url(./img/brisarte.png)
+}
+
+#eventos div {
+    background-image: url(./img/cinerecreio04.jpg)
+}
+
+#motion div {
+    background-image: url(./img/motion.png)
+}
+
+#curtas div {
+    background-image: url(./img/yoni01.png)
+}
+
+#brisarte div {
+    background-image: url(./img/brisarte.png)
+}
+
+#moksha div {
+    background-image: url(./img/motion.png)
+}
+
+#produto div {
+    background-image: url(./img/studio01.jpg)
+}
+
+#cobertura div {
+    background-image: url(./img/pousada1.jpg )
+}
+
+#pousada div {
+    background-image: url(./img/pousada2.jpg)
+}
+
+#cabaret div {
+    background-image: url(./img/cabaret01.jpg)
+}
+
+#studio3d div {
+    background-image: url(./img/studio01.jpg)
+}
+
+#corponenhum div {
+    background-image: url(./img/surgo.png)
+}
+
+#yoni div {
+    background-image: url(./img/yoni04.png)
+}
+
+#surgo div {
+    background-image: url(./img/surgcapa.png)
+}
+
+#cinerecreio div {
+    background-image: url(./img/cinerecreio02.jpg)
+}
