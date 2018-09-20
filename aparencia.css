@@ -1,5 +1,5 @@
 body {
-    background-color: lightcoral;
+    background-color: rgb(107, 107, 107);
 }
 
 h1 {
@@ -55,7 +55,7 @@ ul.lista-portfolio li {
 }
 
 #artetecnologia div {
-    background-image: url(./img/brisarte.png)
+    background-image: url(./img/artetec.JPG)
 }
 
 #eventos div {
@@ -75,7 +75,7 @@ ul.lista-portfolio li {
 }
 
 #moksha div {
-    background-image: url(./img/motion.png)
+    background-image: url(./img/moksha.JPG)
 }
 
 #produto div {
@@ -99,7 +99,7 @@ ul.lista-portfolio li {
 }
 
 #corponenhum div {
-    background-image: url(./img/surgo.png)
+    background-image: url(./img/corponenhum.jpg)
 }
 
 #yoni div {
