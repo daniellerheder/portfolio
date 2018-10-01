@@ -100,7 +100,7 @@ ul.lista100 li {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 350px;
+    min-height: 200px;
 }
 
 .item-portfolio a {
