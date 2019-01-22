@@ -238,6 +238,10 @@ ul.lista100 li {
     background-image: url(./img/cinerecreiologo.png)
 }
 
+#gestao div {
+    background-image: url(./img/gestao.png)
+}
+
 footer {
     font-family: "Montserrat", sans-serif;
     font-size: 0.6em;
